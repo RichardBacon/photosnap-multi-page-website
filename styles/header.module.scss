@@ -1,7 +1,13 @@
+@import './global.scss';
+
 .header {
   align-items: center;
   display: flex;
   height: 7.2rem;
   justify-content: space-between;
   padding: 0 2.4rem;
+}
+
+.logo g {
+  fill: $color-black;
 }

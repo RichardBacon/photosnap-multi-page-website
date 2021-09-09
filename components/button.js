@@ -1,18 +1,13 @@
 import Link from 'next/link';
-import Image from 'next/image';
 import styles from '../styles/button.module.scss';
+import Arrow from '../public/images/shared/arrow.svg';
 
 function Button() {
   return (
     <Link href="/">
       <a className={styles.button}>
         Get An Invite
-        <Image
-          src="/images/shared/arrow.svg"
-          alt="Get an invite"
-          width="42"
-          height="12"
-        />
+        <Arrow className={styles.arrow} />
       </a>
     </Link>
   );

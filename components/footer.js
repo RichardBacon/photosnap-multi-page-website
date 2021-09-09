@@ -1,68 +1,43 @@
-import Image from 'next/image';
 import styles from '../styles/footer.module.scss';
-import Button from './button';
+import Logo from '../public/images/shared/logo.svg';
+import FacebookIcon from '../public/images/shared/facebook.svg';
+import YoutubeIcon from '../public/images/shared/youtube.svg';
+import TwitterIcon from '../public/images/shared/twitter.svg';
+import PinterestIcon from '../public/images/shared/pinterest.svg';
+import InstagramIcon from '../public/images/shared/instagram.svg';
+
 import Nav from './nav';
+import Button from './button';
 
 function Footer() {
   return (
     <footer className={styles.footer}>
-      <Image
-        className={styles.logo}
-        src="/images/shared/logo-white.svg"
-        alt="Photosnap home"
-        width="170"
-        height="16"
-      />
+      <Logo className={styles.logo} />
 
       <ul className={styles.socialLinks}>
         <li>
           <a href="https://www.facebook.com">
-            <Image
-              src="/images/shared/facebook.svg"
-              alt="Facebook"
-              width="20"
-              height="20"
-            />
+            <FacebookIcon className={styles.icon} />
           </a>
         </li>
         <li>
           <a href="https://www.youtube.com">
-            <Image
-              src="/images/shared/youtube.svg"
-              alt="Youtube"
-              width="20"
-              height="20"
-            />
+            <YoutubeIcon className={styles.icon} />
           </a>
         </li>
         <li>
           <a href="https://www.twitter.com">
-            <Image
-              src="/images/shared/twitter.svg"
-              alt="Twitter"
-              width="20"
-              height="20"
-            />
+            <TwitterIcon className={styles.icon} />
           </a>
         </li>
         <li>
           <a href="https://www.pinterest.com">
-            <Image
-              src="/images/shared/pinterest.svg"
-              alt="Pinterest"
-              width="20"
-              height="20"
-            />
+            <PinterestIcon className={styles.icon} />
           </a>
         </li>
         <li>
           <a href="https://www.instagram.com">
-            <Image
-              src="/images/shared/instagram.svg"
-              alt="Instagram"
-              width="20"
-              height="20"
-            />
+            <InstagramIcon className={styles.icon} />
           </a>
         </li>
       </ul>

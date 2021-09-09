@@ -10,6 +10,10 @@
   padding: 6rem;
 }
 
+.logo g {
+  fill: $color-white;
+}
+
 .socialLinks {
   display: flex;
   gap: 1.4rem;
@@ -21,4 +25,8 @@
   font-family: $font-dm-sans;
   font-size: 1.5rem;
   font-weight: 400;
+}
+
+.icon {
+  fill: $color-white;
 }

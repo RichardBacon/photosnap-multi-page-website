@@ -1,14 +1,17 @@
 @import './global.scss';
 
 .button {
+  align-items: center;
   color: $color-white;
   display: flex;
   font-family: $font-dm-sans;
   font-size: 1.2rem;
   font-weight: 400;
-  gap: 2rem;
+  height: 4rem;
+  justify-content: space-between;
   letter-spacing: 2px;
   text-transform: uppercase;
+  width: 17.2rem;
 }
 
 .arrow {

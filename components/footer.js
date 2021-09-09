@@ -5,7 +5,6 @@ import YoutubeIcon from '../public/images/shared/youtube.svg';
 import TwitterIcon from '../public/images/shared/twitter.svg';
 import PinterestIcon from '../public/images/shared/pinterest.svg';
 import InstagramIcon from '../public/images/shared/instagram.svg';
-
 import Nav from './nav';
 import Button from './button';
 
@@ -42,7 +41,9 @@ function Footer() {
         </li>
       </ul>
 
-      <Nav />
+      <div className={styles.navWrapper}>
+        <Nav />
+      </div>
 
       <Button />
 

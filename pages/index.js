@@ -1,5 +1,7 @@
+import Seo from '../components/seo';
+
 function Home() {
-  return <div></div>;
+  return <Seo />;
 }
 
 export default Home;

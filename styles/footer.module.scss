@@ -1,0 +1,24 @@
+@import './global.scss';
+
+.footer {
+  align-items: center;
+  background-color: $color-black;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  height: 54rem;
+  padding: 6rem;
+}
+
+.socialLinks {
+  display: flex;
+  gap: 1.4rem;
+  justify-content: center;
+}
+
+.copyText {
+  color: $color-white;
+  font-family: $font-dm-sans;
+  font-size: 1.5rem;
+  font-weight: 400;
+}

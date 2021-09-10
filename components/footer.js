@@ -45,7 +45,9 @@ function Footer() {
         <Nav />
       </div>
 
-      <Button />
+      <div className={styles.buttonWrapper}>
+        <Button />
+      </div>
 
       <div className={styles.copyText}>
         Copyright 2021. All rights reserved.

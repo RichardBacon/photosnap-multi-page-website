@@ -2,18 +2,53 @@
 
 .button {
   align-items: center;
-  color: $color-white;
   display: flex;
   font-family: $font-dm-sans;
   font-size: 1.2rem;
   font-weight: 400;
   height: 4rem;
-  justify-content: space-between;
+  justify-content: center;
   letter-spacing: 2px;
   text-transform: uppercase;
-  width: 17.2rem;
+  width: 16rem;
 }
 
-.arrow {
-  stroke: $color-white;
+.buttonStyle1 {
+  background-color: $color-black;
+  color: $color-white;
+  width: 16rem;
+
+  .arrow {
+    display: none;
+  }
+}
+
+.buttonStyle2 {
+  color: $color-black;
+  justify-content: space-between;
+  width: 17.2rem;
+
+  .arrow path {
+    stroke: $color-black;
+  }
+}
+
+.buttonStyle3 {
+  background-color: $color-white;
+  color: $color-black;
+  width: 16rem;
+
+  .arrow {
+    display: none;
+  }
+}
+
+.buttonStyle4 {
+  color: $color-white;
+  justify-content: space-between;
+  width: 17.2rem;
+
+  .arrow path {
+    stroke: $color-white;
+  }
 }

@@ -67,7 +67,7 @@ function Footer() {
       </nav>
 
       <div className={styles.buttonWrapper}>
-        <Button />
+        <Button caption="Get An Invite" style={4} />
       </div>
 
       <div className={styles.copyText}>

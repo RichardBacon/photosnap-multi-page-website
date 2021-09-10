@@ -42,11 +42,11 @@
   }
 }
 
-.icon {
+.socialIcon {
   fill: $color-white;
 }
 
-.navWrapper {
+.nav {
   margin: 2rem 0 7rem 0;
 
   @include respond(lge) {
@@ -54,6 +54,31 @@
     grid-row: 1 / 3;
     margin: 0;
   }
+}
+
+.navLinks {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+
+  @include respond(med) {
+    flex-direction: row;
+  }
+
+  @include respond(lge) {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}
+
+.navLink {
+  color: $color-white;
+  font-family: $font-dm-sans;
+  font-size: 1.2rem;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-transform: uppercase;
 }
 
 .buttonWrapper {

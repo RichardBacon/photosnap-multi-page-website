@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import styles from '../styles/footer.module.scss';
 import Logo from '../public/images/shared/logo.svg';
 import FacebookIcon from '../public/images/shared/facebook.svg';
@@ -5,7 +6,6 @@ import YoutubeIcon from '../public/images/shared/youtube.svg';
 import TwitterIcon from '../public/images/shared/twitter.svg';
 import PinterestIcon from '../public/images/shared/pinterest.svg';
 import InstagramIcon from '../public/images/shared/instagram.svg';
-import Nav from './nav';
 import Button from './button';
 
 function Footer() {
@@ -16,34 +16,55 @@ function Footer() {
       <ul className={styles.socialLinks}>
         <li>
           <a href="https://www.facebook.com">
-            <FacebookIcon className={styles.icon} />
+            <FacebookIcon className={styles.socialIcon} />
           </a>
         </li>
         <li>
           <a href="https://www.youtube.com">
-            <YoutubeIcon className={styles.icon} />
+            <YoutubeIcon className={styles.socialIcon} />
           </a>
         </li>
         <li>
           <a href="https://www.twitter.com">
-            <TwitterIcon className={styles.icon} />
+            <TwitterIcon className={styles.socialIcon} />
           </a>
         </li>
         <li>
           <a href="https://www.pinterest.com">
-            <PinterestIcon className={styles.icon} />
+            <PinterestIcon className={styles.socialIcon} />
           </a>
         </li>
         <li>
           <a href="https://www.instagram.com">
-            <InstagramIcon className={styles.icon} />
+            <InstagramIcon className={styles.socialIcon} />
           </a>
         </li>
       </ul>
 
-      <div className={styles.navWrapper}>
-        <Nav />
-      </div>
+      <nav className={styles.nav}>
+        <ul className={styles.navLinks}>
+          <li>
+            <Link href="/">
+              <a className={styles.navLink}>Home</a>
+            </Link>
+          </li>
+          <li>
+            <Link href="/stories">
+              <a className={styles.navLink}>Stories</a>
+            </Link>
+          </li>
+          <li>
+            <Link href="/features">
+              <a className={styles.navLink}>Features</a>
+            </Link>
+          </li>
+          <li>
+            <Link href="/pricing">
+              <a className={styles.navLink}>Pricing</a>
+            </Link>
+          </li>
+        </ul>
+      </nav>
 
       <div className={styles.buttonWrapper}>
         <Button />

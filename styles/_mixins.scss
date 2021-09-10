@@ -3,13 +3,13 @@ BREAKPOINT MANAGER
 */
 @mixin respond($breakpoint) {
   @if $breakpoint == med {
-    @media only screen and (min-width: 600px) {
+    @media only screen and (min-width: 740px) {
       @content;
     }
   }
 
   @if $breakpoint == lge {
-    @media only screen and (min-width: 900px) {
+    @media only screen and (min-width: 1000px) {
       @content;
     }
   }

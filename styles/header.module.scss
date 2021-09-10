@@ -1,4 +1,5 @@
 @import './global.scss';
+@import './mixins.scss';
 
 .header {
   align-items: center;
@@ -6,8 +7,55 @@
   height: 7.2rem;
   justify-content: space-between;
   padding: 0 2.4rem;
+
+  @include respond(med) {
+    gap: 2rem;
+    padding: 0 4rem;
+  }
+
+  @include respond(lge) {
+    padding: 0 16rem;
+  }
 }
 
 .logo g {
   fill: $color-black;
+}
+
+.menuIconWrapper {
+  @include respond(med) {
+    display: none;
+  }
+}
+
+.nav {
+  display: none;
+
+  @include respond(med) {
+    display: initial;
+  }
+}
+
+.navLinks {
+  align-items: center;
+  display: flex;
+  gap: 2rem;
+  gap: 3.8rem;
+}
+
+.navLink {
+  color: $color-black;
+  font-family: $font-dm-sans;
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.buttonWrapper {
+  display: none;
+
+  @include respond(med) {
+    display: initial;
+  }
 }

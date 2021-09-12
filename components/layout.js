@@ -1,10 +1,11 @@
 import Header from '../components/header';
 import Footer from './footer';
 
-function Layout() {
+function Layout({ children }) {
   return (
     <>
       <Header />
+      <main>{children}</main>
       <Footer />
     </>
   );

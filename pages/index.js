@@ -42,8 +42,6 @@ function Home() {
         <Image
           src="/images/stories/mountains720x1000.jpg"
           layout="fill"
-          width="720"
-          height="1000"
           objectFit="cover"
           objectPosition="center"
           alt="A huge white mountain top surrounded by clouds"
@@ -58,8 +56,6 @@ function Home() {
         <Image
           src="/images/stories/cityscapes720x1000.jpg"
           layout="fill"
-          width="720"
-          height="1000"
           objectFit="cover"
           objectPosition="center"
           alt="Aerial view of a city at dusk with the sun setting"
@@ -74,8 +70,6 @@ function Home() {
         <Image
           src="/images/stories/18-days-voyage720x1000.jpg"
           layout="fill"
-          width="720"
-          height="1000"
           objectFit="cover"
           objectPosition="center"
           alt="Silouette of a man walking with the sun setting behind him"
@@ -90,8 +84,6 @@ function Home() {
         <Image
           src="/images/stories/architecturals720x1000.jpg"
           layout="fill"
-          width="720"
-          height="1000"
           objectFit="cover"
           objectPosition="center"
           alt="A cylindrical shaped building made of many bronze panels"
@@ -113,8 +105,6 @@ function Home() {
               <Image
                 src="/images/home/create-and-share1660x1300.jpg"
                 layout="fill"
-                width="1660"
-                height="1300"
                 objectFit="cover"
                 objectPosition="center"
                 alt="A man with a camera standing on a jetty looking out across a lake"
@@ -133,8 +123,6 @@ function Home() {
               <Image
                 src="/images/home/beautiful-stories1660x1300.jpg"
                 layout="fill"
-                width="1660"
-                height="1300"
                 objectFit="cover"
                 objectPosition="center"
                 alt="A man with a camera standing on a jetty looking out across a lake"
@@ -153,8 +141,6 @@ function Home() {
               <Image
                 src="/images/home/designed-for-everyone1660x1300.jpg"
                 layout="fill"
-                width="1660"
-                height="1300"
                 objectFit="cover"
                 objectPosition="center"
                 alt="A man with a camera standing on a jetty looking out across a lake"

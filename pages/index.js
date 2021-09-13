@@ -1,5 +1,7 @@
+import Image from 'next/image';
 import Seo from '../components/seo';
 import Layout from '../components/layout';
+import StorySection from '../components/storySection';
 import FeatureSection from '../components/featureSection';
 import ResponsiveIcon from '../public/images/features/responsive.svg';
 import NoLimitIcon from '../public/images/features/no-limit.svg';
@@ -30,10 +32,78 @@ function Home() {
     },
   ];
 
+  const stories = [
+    {
+      id: 1,
+      heading: 'The Mountains',
+      author: 'John Appleseed',
+      image: (
+        <Image
+          src="/images/stories/mountains720x1000.jpg"
+          layout="fill"
+          width="720"
+          height="1000"
+          objectFit="cover"
+          objectPosition="center"
+          alt="A huge white mountain top surrounded by clouds"
+        />
+      ),
+    },
+    {
+      id: 2,
+      heading: 'Sunset Cityscapes',
+      author: 'Benjamin Cruz',
+      image: (
+        <Image
+          src="/images/stories/cityscapes720x1000.jpg"
+          layout="fill"
+          width="720"
+          height="1000"
+          objectFit="cover"
+          objectPosition="center"
+          alt="Aerial view of a city at dusk with the sun setting"
+        />
+      ),
+    },
+    {
+      id: 3,
+      heading: '18 Days Voyage',
+      author: 'Alexei Borodin',
+      image: (
+        <Image
+          src="/images/stories/18-days-voyage720x1000.jpg"
+          layout="fill"
+          width="720"
+          height="1000"
+          objectFit="cover"
+          objectPosition="center"
+          alt="Silouette of a man walking with the sun setting behind him"
+        />
+      ),
+    },
+    {
+      id: 4,
+      heading: 'Architecturals',
+      author: 'Samantha Brooke',
+      image: (
+        <Image
+          src="/images/stories/architecturals720x1000.jpg"
+          layout="fill"
+          width="720"
+          height="1000"
+          objectFit="cover"
+          objectPosition="center"
+          alt="A cylindrical shaped building made of many bronze panels"
+        />
+      ),
+    },
+  ];
+
   return (
     <>
       <Seo />
       <Layout>
+        <StorySection stories={stories} />
         <FeatureSection features={features} />
       </Layout>
     </>

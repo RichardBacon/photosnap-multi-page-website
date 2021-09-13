@@ -2,6 +2,12 @@
 BREAKPOINT MANAGER
 */
 @mixin respond($breakpoint) {
+  @if $breakpoint == sml {
+    @media only screen and (min-width: 600px) {
+      @content;
+    }
+  }
+
   @if $breakpoint == med {
     @media only screen and (min-width: 740px) {
       @content;

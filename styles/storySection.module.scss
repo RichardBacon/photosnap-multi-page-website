@@ -1,0 +1,15 @@
+@import './global';
+@import './mixins';
+
+.storySection {
+  display: grid;
+  grid-auto-rows: 50rem;
+
+  @include respond(sml) {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  @include respond(lge) {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}

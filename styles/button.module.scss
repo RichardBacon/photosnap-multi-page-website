@@ -10,12 +10,10 @@
   justify-content: center;
   letter-spacing: 2px;
   text-transform: uppercase;
-  width: 16rem;
 }
 
-.buttonStyle1 {
-  background-color: $color-black;
-  color: $color-white;
+.buttonStyle1,
+.buttonStyle3 {
   width: 16rem;
 
   .arrow {
@@ -23,30 +21,32 @@
   }
 }
 
+.buttonStyle1 {
+  background-color: $color-black;
+  color: $color-white;
+}
+
+.buttonStyle3 {
+  background-color: $color-white;
+  color: $color-black;
+}
+
+.buttonStyle2,
+.buttonStyle4 {
+  gap: 2rem;
+  justify-content: flex-start;
+}
+
 .buttonStyle2 {
   color: $color-black;
-  justify-content: space-between;
-  width: 17.2rem;
 
   .arrow path {
     stroke: $color-black;
   }
 }
 
-.buttonStyle3 {
-  background-color: $color-white;
-  color: $color-black;
-  width: 16rem;
-
-  .arrow {
-    display: none;
-  }
-}
-
 .buttonStyle4 {
   color: $color-white;
-  justify-content: space-between;
-  width: 17.2rem;
 
   .arrow path {
     stroke: $color-white;

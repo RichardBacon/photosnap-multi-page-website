@@ -3,6 +3,7 @@ import Seo from '../components/seo';
 import Layout from '../components/layout';
 import StorySection from '../components/storySection';
 import FeatureSection from '../components/featureSection';
+import Hero from '../components/hero';
 import ResponsiveIcon from '../public/images/features/responsive.svg';
 import NoLimitIcon from '../public/images/features/no-limit.svg';
 import EmbedIcon from '../public/images/features/embed.svg';
@@ -103,6 +104,66 @@ function Home() {
     <>
       <Seo />
       <Layout>
+        <Hero
+          hero={{
+            heading: 'Create and Share Your Photo Stories.',
+            description:
+              'Photosnap is a platform for photographers and visual storytellers. We make it easy to share photos, tell stories and connect with others.',
+            image: (
+              <Image
+                src="/images/home/create-and-share1660x1300.jpg"
+                layout="fill"
+                width="1660"
+                height="1300"
+                objectFit="cover"
+                objectPosition="center"
+                alt="A man with a camera standing on a jetty looking out across a lake"
+              />
+            ),
+          }}
+          style={1}
+        />
+
+        <Hero
+          hero={{
+            heading: 'Beautiful Stories every time',
+            description:
+              'We provide design templates to ensure your stories look terrific. Easily add photos, text, embed maps and media from other networks. Then share your story with everyone.',
+            image: (
+              <Image
+                src="/images/home/beautiful-stories1660x1300.jpg"
+                layout="fill"
+                width="1660"
+                height="1300"
+                objectFit="cover"
+                objectPosition="center"
+                alt="A man with a camera standing on a jetty looking out across a lake"
+              />
+            ),
+          }}
+          style={2}
+        />
+
+        <Hero
+          hero={{
+            heading: 'Designed For Everyone',
+            description:
+              'Photosnap can help you create stories that resonate with your audience.  Our tool is designed for photographers of all levels, brands, businesses you name it. ',
+            image: (
+              <Image
+                src="/images/home/designed-for-everyone1660x1300.jpg"
+                layout="fill"
+                width="1660"
+                height="1300"
+                objectFit="cover"
+                objectPosition="center"
+                alt="A man with a camera standing on a jetty looking out across a lake"
+              />
+            ),
+          }}
+          style={3}
+        />
+
         <StorySection stories={stories} />
         <FeatureSection features={features} />
       </Layout>

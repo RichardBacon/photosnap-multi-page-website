@@ -1,6 +1,8 @@
+import Image from 'next/image';
 import Seo from '../components/seo';
 import Layout from '../components/layout';
 import FeatureSection from '../components/featureSection';
+import Hero from '../components/hero';
 import ResponsiveIcon from '../public/images/features/responsive.svg';
 import NoLimitIcon from '../public/images/features/no-limit.svg';
 import EmbedIcon from '../public/images/features/embed.svg';
@@ -58,6 +60,23 @@ function Features() {
     <>
       <Seo />
       <Layout>
+        <Hero
+          hero={{
+            heading: 'Features',
+            description:
+              'We make sure all of our features are designed to be loved by every aspiring and even professional photograpers who wanted to share their stories.',
+            image: (
+              <Image
+                src="/images/features/features1660x980.jpg"
+                layout="fill"
+                objectFit="cover"
+                objectPosition="33%"
+                alt="A man with a camera standing on a jetty looking out across a lake"
+              />
+            ),
+          }}
+          style={1}
+        />
         <FeatureSection features={features} />
       </Layout>
     </>

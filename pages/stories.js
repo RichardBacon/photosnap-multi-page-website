@@ -2,6 +2,7 @@ import Image from 'next/image';
 import Seo from '../components/seo';
 import Layout from '../components/layout';
 import StoryCards from '../components/storyCards';
+import FeatureStory from '../components/featureStory';
 
 function Stories() {
   const stories = [
@@ -235,6 +236,24 @@ function Stories() {
     <>
       <Seo />
       <Layout>
+        <FeatureStory
+          featureStory={{
+            heading: 'Hazy Full Moon of Appalachia',
+            date: 'March 2nd 2020',
+            author: 'John Appleseed',
+            description:
+              'The dissected plateau area, while not actually made up of geological mountains, is popularly called "mountains," especially in eastern Kentucky and West Virginia, and while the ridges are not high, the terrain is extremely rugged.',
+            image: (
+              <Image
+                src="/images/stories/appalacia2878x1300.jpg"
+                layout="fill"
+                objectFit="cover"
+                objectPosition="center"
+                alt="The Appalacian mountains on a dusky moon lit night"
+              />
+            ),
+          }}
+        />
         <StoryCards stories={stories} />
       </Layout>
     </>

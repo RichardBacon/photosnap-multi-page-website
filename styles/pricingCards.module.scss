@@ -1,0 +1,60 @@
+@import './global';
+@import './mixins';
+
+.pricingToggle {
+  align-items: center;
+  color: $color-black;
+  display: flex;
+  font-family: $font-dm-sans;
+  font-size: 1.8rem;
+  font-weight: 700;
+  gap: 4rem;
+  justify-content: center;
+  margin: 6rem 3rem 4rem 3rem;
+  text-align: center;
+
+  @include respond(sml) {
+    margin: 12rem 4rem 4rem 4rem;
+  }
+}
+
+.toggle {
+  background-color: $color-light-grey;
+  border-radius: 2rem;
+  cursor: pointer;
+  height: 3rem;
+  position: relative;
+  width: 6rem;
+}
+
+.toggle::before {
+  background-color: $color-black;
+  border-radius: 50%;
+  content: '';
+  height: 2rem;
+  left: 0.5rem;
+  position: absolute;
+  top: 0.5rem;
+  width: 2rem;
+}
+
+.yearly {
+  color: $color-grey;
+}
+
+.pricingCards {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  margin: 3rem;
+
+  @include respond(sml) {
+    margin: 4rem;
+  }
+
+  @include respond(lge) {
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+  }
+}

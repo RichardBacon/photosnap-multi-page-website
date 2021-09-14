@@ -2,6 +2,7 @@ import Image from 'next/image';
 import Seo from '../components/seo';
 import Layout from '../components/layout';
 import Hero from '../components/hero';
+import PricingCards from '../components/pricingCards';
 
 function Pricing() {
   return (
@@ -25,6 +26,7 @@ function Pricing() {
           }}
           style={1}
         />
+        <PricingCards />
       </Layout>
     </>
   );

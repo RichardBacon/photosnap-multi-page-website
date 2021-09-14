@@ -1,9 +1,9 @@
-import styles from '../styles/story.module.scss';
+import styles from '../styles/storyCard.module.scss';
 import Button from './button';
 
-function Story({ story }) {
+function StoryCard({ story }) {
   return (
-    <figure className={styles.story}>
+    <figure className={styles.storyCard}>
       <div className={styles.imageWrapper}>{story.image}</div>
 
       <div className={styles.content}>
@@ -18,4 +18,4 @@ function Story({ story }) {
   );
 }
 
-export default Story;
+export default StoryCard;

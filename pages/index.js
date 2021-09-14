@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import Seo from '../components/seo';
 import Layout from '../components/layout';
-import StorySection from '../components/storySection';
+import StoryCards from '../components/storyCards';
 import FeatureSection from '../components/featureSection';
 import Hero from '../components/hero';
 import ResponsiveIcon from '../public/images/features/responsive.svg';
@@ -150,7 +150,7 @@ function Home() {
           style={3}
         />
 
-        <StorySection stories={stories} />
+        <StoryCards stories={stories} />
         <FeatureSection features={features} />
       </Layout>
     </>

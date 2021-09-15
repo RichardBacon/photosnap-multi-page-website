@@ -44,6 +44,12 @@
 
 .socialIcon {
   fill: $color-white;
+
+  @include hoverAllowed() {
+    &:hover {
+      fill: $color-grey;
+    }
+  }
 }
 
 .nav {
@@ -79,6 +85,12 @@
   font-weight: 400;
   letter-spacing: 2px;
   text-transform: uppercase;
+
+  @include hoverAllowed() {
+    &:hover {
+      color: $color-grey;
+    }
+  }
 }
 
 .buttonWrapper {

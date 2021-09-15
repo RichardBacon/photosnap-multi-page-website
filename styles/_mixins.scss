@@ -26,3 +26,12 @@ BREAKPOINT MANAGER
     }
   }
 }
+
+/**
+HOVER ALLOWED
+*/
+@mixin hoverAllowed() {
+  @media (hover: hover) and (pointer: fine) {
+    @content;
+  }
+}

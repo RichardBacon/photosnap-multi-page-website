@@ -1,4 +1,5 @@
 @import './global.scss';
+@import './mixins.scss';
 
 .button {
   align-items: center;
@@ -24,17 +25,36 @@
 .buttonStyle1 {
   background-color: $color-black;
   color: $color-white;
+
+  @include hoverAllowed() {
+    &:hover {
+      background-color: $color-grey;
+    }
+  }
 }
 
 .buttonStyle3 {
   background-color: $color-white;
   color: $color-black;
+
+  @include hoverAllowed() {
+    &:hover {
+      background-color: $color-grey;
+      color: $color-white;
+    }
+  }
 }
 
 .buttonStyle2,
 .buttonStyle4 {
   gap: 2rem;
   justify-content: flex-start;
+
+  @include hoverAllowed() {
+    &:hover {
+      text-decoration: underline;
+    }
+  }
 }
 
 .buttonStyle2 {

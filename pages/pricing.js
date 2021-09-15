@@ -3,6 +3,7 @@ import Seo from '../components/seo';
 import Layout from '../components/layout';
 import Hero from '../components/hero';
 import PricingCards from '../components/pricingCards';
+import PricingChart from '../components/pricingChart';
 
 function Pricing() {
   return (
@@ -27,6 +28,7 @@ function Pricing() {
           style={1}
         />
         <PricingCards />
+        <PricingChart />
       </Layout>
     </>
   );

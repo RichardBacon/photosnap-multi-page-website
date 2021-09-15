@@ -1,0 +1,134 @@
+@import './global';
+@import './mixins';
+
+.pricingChart {
+  margin: 6rem 3rem;
+
+  @include respond(med) {
+    margin: 12rem 4rem;
+  }
+
+  @include respond(lge) {
+    margin: 16rem auto;
+    max-width: 70rem;
+  }
+}
+
+.heading {
+  color: $color-black;
+  font-family: $font-dm-sans;
+  font-size: 4rem;
+  font-weight: 700;
+  letter-spacing: 4px;
+  margin-bottom: 4rem;
+  text-align: center;
+  text-transform: uppercase;
+
+  @include respond(med) {
+    margin-bottom: 6rem;
+  }
+}
+
+.featuresHeading {
+  border-bottom: 2px solid $color-black;
+  color: $color-black;
+  display: flex;
+  font-family: $font-dm-sans;
+  font-size: 1.2rem;
+  font-weight: 700;
+  justify-content: space-between;
+  letter-spacing: 2px;
+  padding-bottom: 2rem;
+  text-transform: uppercase;
+
+  @include respond(med) {
+    padding: 0 2rem 2rem 2rem;
+  }
+}
+
+.featuresPlans {
+  display: none;
+
+  @include respond(med) {
+    display: flex;
+  }
+}
+
+.featuresPlan {
+  @include respond(med) {
+    display: flex;
+    justify-content: center;
+    width: 12rem;
+  }
+}
+
+.feature {
+  border-bottom: 2px solid $color-light-grey;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin: 3rem 0;
+  padding-bottom: 2rem;
+
+  @include respond(med) {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 2rem 2rem 2rem;
+  }
+}
+
+.featureHeading {
+  color: $color-black;
+  font-family: $font-dm-sans;
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.featurePlans {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+  max-width: 28rem;
+
+  @include respond(sml) {
+    max-width: 40rem;
+  }
+
+  @include respond(med) {
+    gap: 0;
+    max-width: unset;
+  }
+}
+
+.featurePlan {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+
+  @include respond(med) {
+    align-items: center;
+  }
+}
+
+.featurePlanHeading {
+  color: $color-grey;
+  font-family: $font-dm-sans;
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+
+  @include respond(med) {
+    display: none;
+  }
+}
+
+.checkIconWrapper {
+  @include respond(med) {
+    display: flex;
+    justify-content: center;
+    width: 12rem;
+  }
+}

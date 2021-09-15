@@ -11,7 +11,11 @@ import Button from './button';
 function Footer() {
   return (
     <footer className={styles.footer}>
-      <Logo className={styles.logo} />
+      <Link href="/">
+        <a>
+          <Logo className={styles.logo} />
+        </a>
+      </Link>
 
       <ul className={styles.socialLinks}>
         <li>

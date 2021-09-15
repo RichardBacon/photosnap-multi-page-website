@@ -7,7 +7,11 @@ import Button from './button';
 function Header() {
   return (
     <header className={styles.header}>
-      <Logo className={styles.logo} />
+      <Link href="/">
+        <a>
+          <Logo className={styles.logo} />
+        </a>
+      </Link>
 
       <div className={styles.menuIconWrapper}>
         <MenuIcon />

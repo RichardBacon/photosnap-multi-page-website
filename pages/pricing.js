@@ -21,6 +21,7 @@ function Pricing() {
                 layout="fill"
                 objectFit="cover"
                 objectPosition="center"
+                sizes="(min-width: 1200px) 720px, (min-width: 600px) 200px, 100vw"
                 alt="A silouette of a woman using a camera on a tripod"
               />
             ),

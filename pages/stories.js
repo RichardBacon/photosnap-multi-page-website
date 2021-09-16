@@ -16,6 +16,7 @@ function Stories() {
           layout="fill"
           objectFit="cover"
           objectPosition="center"
+          sizes="(min-width: 1000px) 25vw, (min-width: 600px) 50vw, 100vw"
           alt="A huge white mountain top surrounded by clouds"
         />
       ),
@@ -30,6 +31,7 @@ function Stories() {
           layout="fill"
           objectFit="cover"
           objectPosition="center"
+          sizes="(min-width: 1000px) 25vw, (min-width: 600px) 50vw, 100vw"
           alt="Aerial view of a city at dusk with the sun setting"
         />
       ),
@@ -44,6 +46,7 @@ function Stories() {
           layout="fill"
           objectFit="cover"
           objectPosition="center"
+          sizes="(min-width: 1000px) 25vw, (min-width: 600px) 50vw, 100vw"
           alt="Silouette of a man walking with the sun setting behind him"
         />
       ),
@@ -58,6 +61,7 @@ function Stories() {
           layout="fill"
           objectFit="cover"
           objectPosition="center"
+          sizes="(min-width: 1000px) 25vw, (min-width: 600px) 50vw, 100vw"
           alt="A cylindrical shaped building made of many bronze panels"
         />
       ),
@@ -72,6 +76,7 @@ function Stories() {
           layout="fill"
           objectFit="cover"
           objectPosition="center"
+          sizes="(min-width: 1000px) 25vw, (min-width: 600px) 50vw, 100vw"
           alt="A lake between large mountains and a cloudy sky"
         />
       ),
@@ -86,6 +91,7 @@ function Stories() {
           layout="fill"
           objectFit="cover"
           objectPosition="center"
+          sizes="(min-width: 1000px) 25vw, (min-width: 600px) 50vw, 100vw"
           alt="A tree with sunlight shining through the branches"
         />
       ),
@@ -100,6 +106,7 @@ function Stories() {
           layout="fill"
           objectFit="cover"
           objectPosition="center"
+          sizes="(min-width: 1000px) 25vw, (min-width: 600px) 50vw, 100vw"
           alt="Close up of a lions face"
         />
       ),
@@ -114,6 +121,7 @@ function Stories() {
           layout="fill"
           objectFit="cover"
           objectPosition="center"
+          sizes="(min-width: 1000px) 25vw, (min-width: 600px) 50vw, 100vw"
           alt="A solitary tree standing on the edge of a lake"
         />
       ),
@@ -128,6 +136,7 @@ function Stories() {
           layout="fill"
           objectFit="cover"
           objectPosition="center"
+          sizes="(min-width: 1000px) 25vw, (min-width: 600px) 50vw, 100vw"
           alt="A rough sea with high waves beneath a setting sun"
         />
       ),
@@ -142,6 +151,7 @@ function Stories() {
           layout="fill"
           objectFit="cover"
           objectPosition="center"
+          sizes="(min-width: 1000px) 25vw, (min-width: 600px) 50vw, 100vw"
           alt="Two grey horses running through the mist"
         />
       ),
@@ -156,6 +166,7 @@ function Stories() {
           layout="fill"
           objectFit="cover"
           objectPosition="center"
+          sizes="(min-width: 1000px) 25vw, (min-width: 600px) 50vw, 100vw"
           alt="A huge wave with white surf"
         />
       ),
@@ -170,6 +181,7 @@ function Stories() {
           layout="fill"
           objectFit="cover"
           objectPosition="center"
+          sizes="(min-width: 1000px) 25vw, (min-width: 600px) 50vw, 100vw"
           alt="A calm lake with green hills in the background"
         />
       ),
@@ -184,6 +196,7 @@ function Stories() {
           layout="fill"
           objectFit="cover"
           objectPosition="center"
+          sizes="(min-width: 1000px) 25vw, (min-width: 600px) 50vw, 100vw"
           alt="The Milky Way galaxy as seen from space"
         />
       ),
@@ -198,6 +211,7 @@ function Stories() {
           layout="fill"
           objectFit="cover"
           objectPosition="center"
+          sizes="(min-width: 1000px) 25vw, (min-width: 600px) 50vw, 100vw"
           alt="A flat rocky mountain covered in snow beneath a star lit night sky"
         />
       ),
@@ -212,6 +226,7 @@ function Stories() {
           layout="fill"
           objectFit="cover"
           objectPosition="center"
+          sizes="(min-width: 1000px) 25vw, (min-width: 600px) 50vw, 100vw"
           alt="A wild flower with a grren stem and leaves and yellow petals"
         />
       ),
@@ -226,6 +241,7 @@ function Stories() {
           layout="fill"
           objectFit="cover"
           objectPosition="center"
+          sizes="(min-width: 1000px) 25vw, (min-width: 600px) 50vw, 100vw"
           alt="A small church lit with orange light with a huge snow covered mountain in the background"
         />
       ),

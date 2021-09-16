@@ -71,6 +71,7 @@ function Features() {
                 layout="fill"
                 objectFit="cover"
                 objectPosition="33%"
+                sizes="(min-width: 1200px) 720px, (min-width: 600px) 200px, 100vw"
                 alt="A man with a camera standing on a jetty looking out across a lake"
               />
             ),

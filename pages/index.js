@@ -44,6 +44,7 @@ function Home() {
           layout="fill"
           objectFit="cover"
           objectPosition="center"
+          sizes="(min-width: 1000px) 25vw, (min-width: 600px) 50vw, 100vw"
           alt="A huge white mountain top surrounded by clouds"
         />
       ),
@@ -58,6 +59,7 @@ function Home() {
           layout="fill"
           objectFit="cover"
           objectPosition="center"
+          sizes="(min-width: 1000px) 25vw, (min-width: 600px) 50vw, 100vw"
           alt="Aerial view of a city at dusk with the sun setting"
         />
       ),
@@ -72,6 +74,7 @@ function Home() {
           layout="fill"
           objectFit="cover"
           objectPosition="center"
+          sizes="(min-width: 1000px) 25vw, (min-width: 600px) 50vw, 100vw"
           alt="Silouette of a man walking with the sun setting behind him"
         />
       ),
@@ -86,6 +89,7 @@ function Home() {
           layout="fill"
           objectFit="cover"
           objectPosition="center"
+          sizes="(min-width: 1000px) 25vw, (min-width: 600px) 50vw, 100vw"
           alt="A cylindrical shaped building made of many bronze panels"
         />
       ),
@@ -107,6 +111,7 @@ function Home() {
                 layout="fill"
                 objectFit="cover"
                 objectPosition="center"
+                sizes="(min-width: 1200px) 720px, (min-width: 600px) 200px, 100vw"
                 alt="A man with a camera standing on a jetty looking out across a lake"
               />
             ),
@@ -125,6 +130,7 @@ function Home() {
                 layout="fill"
                 objectFit="cover"
                 objectPosition="center"
+                sizes="(min-width: 1600px) 960px, (min-width: 1200px) 720px, (min-width: 600px) 200px, 100vw"
                 alt="A man with a camera standing on a jetty looking out across a lake"
               />
             ),
@@ -143,6 +149,7 @@ function Home() {
                 layout="fill"
                 objectFit="cover"
                 objectPosition="center"
+                sizes="(min-width: 1600px) 960px, (min-width: 1200px) 720px, (min-width: 600px) 200px, 100vw"
                 alt="A man with a camera standing on a jetty looking out across a lake"
               />
             ),
